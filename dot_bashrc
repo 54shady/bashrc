@@ -3,6 +3,7 @@
 # User specific aliases and functions
 
 alias rm='rm -rf'
+alias ll='ls -laF'
 alias cp='cp -rf'
 alias mv='mv -i'
 alias vd='vimdiff'
@@ -13,7 +14,16 @@ alias gw='git whatchanged --oneline'
 alias gs='git status'
 alias gd='git diff'
 alias gb='git branch'
-alias gp='grep --colour=auto --exclude=tags'
+alias gp='mygrep --colour=auto --exclude=tags'
+alias tm='tmux attach-session'
+alias minicom='sudo minicom'
+alias fastboot='sudo fastboot'
+alias ifconfig='sudo ifconfig'
+alias tm='tmux attach-session -t mobz'
+alias fs='fastboot flash system system.img'
+alias fb='fastboot flash boot boot.img'
+alias fr='fastboot reboot'
+alias adbs='adb shell'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
