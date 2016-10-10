@@ -114,3 +114,6 @@ export PATH=$PATH:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-t
 
 # add for android studio
 export PATH=$PATH:/opt/android-studio/bin
+
+# add for sbin
+export PATH=$PATH:/usr/sbin:/sbin
